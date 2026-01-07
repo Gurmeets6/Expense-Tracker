@@ -35,3 +35,41 @@ Make sure you have installed:
 git clone https://github.com/Gurmeets6/Expense-Tracker.git
 cd Expense-Tracker
 ```
+---
+
+### 2️⃣ Install & Run Frontend (React)
+
+```bash
+npm install
+npm start
+Setup Database (MySQL)
+
+Open XAMPP and start Apache and MySQL
+
+Open browser and go to:
+http://localhost/phpmyadmin
+
+Import this file:
+Backend/database.sql
+
+Database name used:
+expense_tracker
+
+4️⃣ Create .env file (Backend)
+
+Inside the Backend folder, create a file named .env
+
+Add this:
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=expense_tracker
+
+5️⃣ Run Backend (Node.js)
+
+Open a new terminal:
+
+cd Backend
+npm install
+npm start
